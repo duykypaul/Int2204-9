@@ -64,9 +64,7 @@ public class bt01 {
         System.out.println(ar[n - 1]);
     }
     public static void main(String[] args) {
-        int a = 0, b = 0;
-        int n = 1000;
-        new bt01().USCLN(a, b);
-        fibonaci(n);
+        new bt01().USCLN(0, -1);
+        fibonaci(10000);
     }
 }
